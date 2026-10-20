@@ -1,0 +1,14 @@
+patch:
+  # 输入双拼码的时候不转化为全拼码
+  'translator/preedit_format': {}
+
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中, 英 ]
+    - name: full_shape
+      states: [ 半, 全 ]
+    - name: simplification
+      # 设置默认为简体中文
+      reset: 1
+      states: [ 繁, 简 ]

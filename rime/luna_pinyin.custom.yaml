@@ -1,0 +1,25 @@
+# 朙月拼音 输入方案自定义
+patch:
+  # 添加模糊音
+  speller/algebra:
+    __patch:
+      - pinyin:/zh_z_bufen
+      - pinyin:/en_eng_bufen
+      - pinyin:/abbreviation
+      - pinyin:/spelling_correction
+      - pinyin:/key_correction
+
+  # 添加朙月拼音扩充词库
+  translator/dictionary: luna_pinyin.extended
+
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中, 英 ]
+    - name: full_shape
+      states: [ 半, 全 ]
+    - name: simplification
+      # 设置默认为简体中文
+      reset: 1
+      states: [ 繁, 简 ]
+...

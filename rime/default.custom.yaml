@@ -1,0 +1,29 @@
+patch:
+  schema_list:
+    - schema: double_pinyin_flypy
+    # TODO: enable luna_pinyin and disable easy_en for mobile
+    # - schema: luna_pinyin
+    - schema: easy_en
+  # 候选词个数
+  menu/page_size: 7
+  # 水平候选词
+  style/horizontal: true
+  # 按 CapsLock 输出大写英文字母
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Shift_L: commit_code
+    Shift_R: inline_ascii
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: commit_code
+    Eisu_toggle: noop
+  switcher/hotkeys:
+    - Control+grave
+    - F4
+  key_binder:
+    bindings:
+      __patch:
+        - key_bindings:/numbered_mode_switch
+        - key_bindings:/paging_with_minus_equal
+        - key_bindings:/paging_with_comma_period
+...

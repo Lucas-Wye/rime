@@ -1,0 +1,147 @@
+patch:
+  "style/auto_caps": ascii
+  "style/candidate_text_size": 23
+  "style/candidate_spacing": 6
+  "style/keyboards": [.default, default, number, bqfh1]
+
+  "preset_keys/liquid_keyboard_switch": { label: ⌘, functional: false, send: Eisu_toggle, select: bqfh1 }
+  "preset_keys/foxmail": { label: "FOX", functional: false, text: "lustrew@foxmail.com" }
+  "preset_keys/name": { label: "Name", functional: false, text: "lucas.zw.ye" }
+  "preset_keys/ms": { label: "MS", functional: false, text: "@outlook.com" }
+  "preset_keys/gmail": { label: "GOOL", functional: false, text: "@gmail.com" }
+  # TODO
+  "preset_keys/id": { label: "ID", functional: false, text: "" }
+  "preset_keys/hkid": { label: "HKID", functional: false, text: "" }
+  "preset_keys/phone": { label: "PHONE", functional: false, text: "" }
+  "preset_keys/hkphone": { label: "HKP", functional: false, text: "" }
+
+  "preset_keyboards/bqfh1/width": 10
+  "preset_keyboards/bqfh1/ascii_mode": 1
+  "preset_keyboards/bqfh1/keys":
+    - {click: '，', height: 26}
+    - {click: '。'}
+    - {click: '？'}
+    - {click: '！'}
+    - {click: '：'}
+    - {click: '；'}
+    - {click: '、'}
+    - {click: '“'}
+    - {click: '”'}
+    - {click: '···'}
+
+    - {click: ms, width: 15, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: name, width: 15, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: id, width: 15, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: hkid, width: 15, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: '（）{Left}'}
+    - {click: '‘'}
+    - {click: '’'}
+    - {click: '_'}
+
+    - {click: foxmail, width: 20, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: gmail, width: 15, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: hkphone, width: 15, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: '~'}
+    - {click: ','}
+    - {click: '.'}
+    - {click: '!'}
+    - {click: '?'}
+
+    - {click: '/'}
+    - {click: '\'}
+    - {click: '*'}
+    - {click: '+'}
+    - {click: '-'}
+    - {click: '<'}
+    - {click: '>'}
+    - {click: '='}
+    - {click: '^'}
+    - {click: '|'}
+
+    - {click: '$'}
+    - {click: '￥'}
+    - {click: '%'}
+    - {click: ';'}
+    - {click: '"'}
+    - {click: '@'}
+    - {click: '&'}
+    - {click: '(){Left}'}
+    - {click: '[]{Left}'}
+    - {click: '{}{Left}'}
+    
+    - {click: Keyboard_default, width: 16.5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: BackSpace, width: 17, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {click: space, long_click: Delete, width: 33}
+    - {click: phone, width: 17}
+    - {label: '颜文', click: Keyboard_bqsy4, width: 16.5, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
+
+  "preset_keyboards/default/keys":
+    - {click: q, key_back_color: bh1, key_text_color: th1}
+    - {click: w, key_back_color: bh1, key_text_color: th1}
+    - {click: e, key_back_color: bh1, key_text_color: th1}
+    - {click: r, key_back_color: bh1, key_text_color: th1}
+    - {click: t, key_back_color: bh1, key_text_color: th1}
+    - {click: y, key_back_color: bh1, key_text_color: th1}
+    - {click: u, key_back_color: bh1, key_text_color: th1}
+    - {click: i, key_back_color: bh1, key_text_color: th1}
+    - {click: o, key_back_color: bh1, key_text_color: th1}
+    - {click: p, key_back_color: bh1, key_text_color: th1}
+
+    - {width: 5, key_back_color: bh2, key_text_color: th2}
+    - {click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
+    - {click: s, key_back_color: bh2, key_text_color: th2}
+    - {click: d, key_back_color: bh2, key_text_color: th2}
+    - {click: f, key_back_color: bh2, key_text_color: th2}
+    - {click: g, key_back_color: bh2, key_text_color: th2}
+    - {click: h, key_back_color: bh2, key_text_color: th2}
+    - {click: j, key_back_color: bh2, key_text_color: th2}
+    - {click: k, key_back_color: bh2, key_text_color: th2}
+    - {click: l, key_back_color: bh2, key_text_color: th2}
+    - {width: 5, key_back_color: bh2, key_text_color: th2}
+
+    - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
+    - {click: z, key_back_color: bh3, key_text_color: th3}
+    - {click: x, long_click: cut, key_back_color: bh3, key_text_color: th3}
+    - {click: c, long_click: copy, key_back_color: bh3, key_text_color: th3}
+    - {click: v, long_click: paste_clip, key_back_color: bh3, key_text_color: th3}
+    - {click: b, key_back_color: bh3, key_text_color: th3}
+    - {click: n, key_back_color: bh3, key_text_color: th3}
+    - {click: m, key_back_color: bh3, key_text_color: th3}
+    - {click: liquid_keyboard_switch, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+
+    - {click: Keyboard_number, width: 11, key_back_color: bgn, key_text_color: tgn}
+    - {click: '，', key_back_color: bh4, key_text_color: th4}
+    - {click: Shift_L, composing: delimiter, long_click: liquid_keyboard_clipboard,  width: 13, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+    - {click: Return, composing: Return1, width: 13, key_back_color: benter, key_text_color: tenter}
+    - {click: space, long_click: Delete, width: 30, key_back_color: bkg, key_text_color: tkg}
+    - {click: '？', key_back_color: bh4, key_text_color: th4}
+    - {click: Menu, width: 13, key_text_size: "20", key_back_color: bgn, key_text_color: tgn}
+
+  "preset_keyboards/number/keys":
+    - {click: '@', key_back_color: bgn, key_text_color: tgn}
+    - {click: 1}
+    - {click: 2}
+    - {click: 3}
+    - {click: '/', key_back_color: bgn, key_text_color: tgn}
+    - {click: ':', key_back_color: bgn, key_text_color: tgn}
+
+    - {click: '#', key_back_color: bgn, key_text_color: tgn}
+    - {click: 4}
+    - {click: 5}
+    - {click: 6}
+    - {click: '-', key_back_color: bgn, key_text_color: tgn}
+    - {click: '(){Left}', key_back_color: bgn, key_text_color: tgn}
+
+    - {click: ., key_back_color: bgn, key_text_color: tgn}
+    - {click: 7}
+    - {click: 8}
+    - {click: 9}
+    - {click: '!', key_back_color: bgn, key_text_color: tgn}
+    - {click: '+', key_back_color: bgn, key_text_color: tgn}
+
+    - {click: Keyboard_default, key_back_color: bgn, key_text_color: 'tgn'}
+    - {click: BackSpace, key_back_color: bbs, key_text_color: tbs}
+    - {click: Return, key_back_color: benter, key_text_color: tenter}
+    - {click: 0}
+    - {click: space1, long_click: Delete, key_back_color: bgn, key_text_color: tgn}
+    - {click: '~', key_back_color: bgn, key_text_color: tgn}
